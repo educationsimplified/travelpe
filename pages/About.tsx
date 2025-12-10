@@ -38,8 +38,7 @@ const About: React.FC = () => {
             <div className="pt-4">
               <a 
                 href={SIGNUP_LINK}
-                target="_blank" 
-                rel="noopener noreferrer" 
+                // --- TARGET="_BLANK" AND REL="NOOPENER NOREFERRER" REMOVED HERE ---
                 className="inline-block px-6 py-3 border-2 border-gray-900 text-gray-900 font-bold rounded-lg hover:bg-gray-900 hover:text-white transition"
               >
                 Join Our Community
