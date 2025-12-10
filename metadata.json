@@ -1,0 +1,7 @@
+{
+  "name": "Travel Pe India - Varanasi",
+  "description": "Experience the spiritual capital of India with affordable, premium transport booking services including Rickshaws, Boats, Cars, and Buses.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
