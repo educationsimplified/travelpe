@@ -25,10 +25,15 @@ const Footer: React.FC = () => {
           <div className="space-y-4">
             <h3 className="text-xl font-serif font-semibold border-b-2 border-saffron-500 inline-block pb-2">Quick Links</h3>
             <ul className="space-y-2 text-gray-300">
-              <li><a href={SIGNUP_LINK} target="_blank" className="hover:text-white transition">Book a Boat</a></li>
-              <li><a href={SIGNUP_LINK} target="_blank" className="hover:text-white transition">Rent a Car</a></li>
+              {/* TARGET="_BLANK" REMOVED */}
+              <li><a href={SIGNUP_LINK} className="hover:text-white transition">Book a Boat</a></li>
+              {/* TARGET="_BLANK" REMOVED */}
+              <li><a href={SIGNUP_LINK} className="hover:text-white transition">Rent a Car</a></li>
+              
               <li><a href="/#/about" className="hover:text-white transition">About Varanasi</a></li>
-              <li><a href={SIGNUP_LINK} target="_blank" className="hover:text-white transition">Member Login</a></li>
+              
+              {/* TARGET="_BLANK" REMOVED */}
+              <li><a href={SIGNUP_LINK} className="hover:text-white transition">Member Login</a></li>
             </ul>
           </div>
 
