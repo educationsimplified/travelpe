@@ -27,10 +27,9 @@ const Home: React.FC = () => {
             Book trusted boats, rickshaws, and cars in Varanasi at the most affordable rates.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
+            {/* LINK 1: HERO BUTTON (Target attributes removed) */}
             <a 
               href={SIGNUP_LINK} 
-              target="_blank"
-              rel="noopener noreferrer"
               className="px-8 py-4 bg-saffron-600 hover:bg-saffron-700 text-white rounded-full font-bold text-lg transition-transform transform hover:scale-105 shadow-lg flex items-center justify-center gap-2"
             >
               Book Now <ExternalLink size={20} />
@@ -68,10 +67,9 @@ const Home: React.FC = () => {
                   <p className="text-gray-600 text-sm mb-4 line-clamp-2">{service.description}</p>
                   <div className="flex justify-between items-center pt-4 border-t border-gray-100">
                     <span className="font-bold text-saffron-600 text-sm">Best Rates</span>
+                    {/* LINK 2: SERVICE PREVIEW LINK (Target attributes removed) */}
                     <a 
                       href={SIGNUP_LINK} 
-                      target="_blank"
-                      rel="noopener noreferrer"
                       className="text-sm font-semibold text-gray-900 hover:text-saffron-600 flex items-center"
                     >
                       Book <ArrowRight size={14} className="ml-1" />
