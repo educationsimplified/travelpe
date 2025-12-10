@@ -1,6 +1,6 @@
 import { Ship, Bus, Car, Bike } from 'lucide-react';
 
-export const SIGNUP_LINK = "https://script.google.com/macros/s/AKfycbx4tFHGNr6OqKx_GT9CgMaGQRUTnNiFZTnMIEzhiiuVlAIn0od38JuziAgS9y2tmTsc4A/exec";
+export const SIGNUP_LINK = "register-travelpayindia.blogspot.com";
 
 export const SERVICES = [
   {
