@@ -72,17 +72,16 @@ const Book: React.FC = () => {
                 </div>
 
                 <div className="bg-gray-50 p-6 rounded-xl border border-gray-100 text-center">
-                   <p className="text-gray-600 mb-6">
-                     To check availability and book this service, please sign up or log in to our traveler portal.
-                   </p>
-                   <a 
-                     href={SIGNUP_LINK}
-                     target="_blank" 
-                     rel="noopener noreferrer"
-                     className="inline-flex items-center justify-center px-8 py-4 bg-saffron-600 text-white text-lg font-bold rounded-lg hover:bg-saffron-700 transition shadow-lg transform active:scale-95 hover:scale-105"
-                   >
-                     Book {service.title} Now <ExternalLink size={20} className="ml-2" />
-                   </a>
+                    <p className="text-gray-600 mb-6">
+                      To check availability and book this service, please sign up or log in to our traveler portal.
+                    </p>
+                    <a 
+                      href={SIGNUP_LINK}
+                      // --- TARGET="_BLANK" AND REL="NOOPENER NOREFERRER" REMOVED HERE ---
+                      className="inline-flex items-center justify-center px-8 py-4 bg-saffron-600 text-white text-lg font-bold rounded-lg hover:bg-saffron-700 transition shadow-lg transform active:scale-95 hover:scale-105"
+                    >
+                      Book {service.title} Now <ExternalLink size={20} className="ml-2" />
+                    </a>
                 </div>
               </div>
             ))}
