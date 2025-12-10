@@ -39,10 +39,9 @@ const Navbar: React.FC = () => {
             <Link to="/about" className={`font-medium hover:text-saffron-500 transition-colors ${textClass}`}>About</Link>
             <Link to="/book" className={`font-medium hover:text-saffron-500 transition-colors ${textClass}`}>Services</Link>
             
+            {/* DESKTOP LINK: target="_blank" and rel="noopener noreferrer" removed */}
             <a 
               href={SIGNUP_LINK} 
-              target="_blank" 
-              rel="noopener noreferrer"
               className={`flex items-center space-x-2 px-5 py-2 rounded-full font-bold transition-all transform hover:scale-105 shadow-lg ${buttonClass}`}
             >
               <UserCircle size={20} />
@@ -66,10 +65,11 @@ const Navbar: React.FC = () => {
             <Link onClick={() => setIsOpen(false)} to="/" className="block px-3 py-2 text-gray-800 font-medium hover:text-saffron-600">Home</Link>
             <Link onClick={() => setIsOpen(false)} to="/about" className="block px-3 py-2 text-gray-800 font-medium hover:text-saffron-600">About</Link>
             <Link onClick={() => setIsOpen(false)} to="/book" className="block px-3 py-2 text-gray-800 font-medium hover:text-saffron-600">Services</Link>
+            
+            {/* MOBILE LINK: target="_blank" and rel="noopener noreferrer" removed */}
             <a 
               href={SIGNUP_LINK}
-              target="_blank" 
-              rel="noopener noreferrer"
+              onClick={() => setIsOpen(false)} // Close menu on click
               className="w-full text-center block px-3 py-3 bg-saffron-600 text-white rounded-md font-bold"
             >
               Sign Up / Book
